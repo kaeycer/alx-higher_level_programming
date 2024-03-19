@@ -1,1 +1,7 @@
-  3-print_reversed_list_integer.py 4-new_in_list.py 5-no_c.py
+#!/usr/bin/python3
+def replace_in_list(my_list, idx, element):
+    if (idx < 0) or (idx > len(my_list) - 1):
+        return (my_list)
+    else:
+        my_list[idx] = element
+        return (my_list)
